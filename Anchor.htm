@@ -1,0 +1,100 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> A </H1>
+<SPAN CLASS="INTRO"> Anchor</SPAN> Tag is to be used in the
+<SPAN CLASS= INTRO> <A HREF="BODY.HTM" TITLE= "Body-Contains the Formatting Tags. Its contents are displayed on the Browser"> BODY </A> </SPAN>
+Tag. This is used to Define links or locations within the <BR>same or to other documents.
+This is a Container Tag and thus has to be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> CHARSET : 
+		<SPAN CLASS= MAIN> Specifies the <SPAN CLASS="INTRO">
+			Character Encoding of the Data designated by the Link </SPAN>
+			. </SPAN>
+	<LI CLASS="HAND"> COORDS :
+		<SPAN CLASS= MAIN> Specifies the Coordinates of the Shape that Define a Clickable
+			Area. Coordinates are measured from the Top-Left Corner of the Image.
+			The <SPAN CLASS= INTRO> DEFAULT and RECT
+			</SPAN> take two points as
+			<SPAN CLASS= INTRO> X1,Y1,X2,Y2.</SPAN>
+			The <SPAN CLASS= INTRO> CIRCLE </SPAN> takes three points as
+			<SPAN CLASS= INTRO> X,Y,RADIUS.</SPAN>
+			The <SPAN CLASS= INTRO> POLY </SPAN> takes many points as
+			<SPAN CLASS= INTRO> X1,Y1,X2,Y2,X3,Y3,.....</SPAN></SPAN>
+	<LI CLASS="HAND"> HREF : 
+		<SPAN CLASS= MAIN> Specifies the <SPAN CLASS="INTRO">
+			Relative or Absolute Address (URL) </SPAN> of the
+			file to be linked. To specify the <SPAN CLASS="INTRO">
+			link to a fragmented URL,'#' </SPAN> is used. </SPAN>
+	<LI CLASS="HAND"> HREFLANG : 
+		<SPAN CLASS= MAIN> Specifies the <SPAN CLASS="INTRO">
+			Language used in the Document Linked to </SPAN>. </SPAN>
+	<LI CLASS="HAND"> NAME : 
+		<SPAN CLASS= MAIN> Marks a location (<SPAN CLASS="INTRO">
+			Fragmented URL </SPAN>) within a Document to which
+			the Browser can move when the corresponding link is
+			activated.</SPAN>
+	<LI CLASS="HAND"> REL : 
+		<SPAN CLASS= MAIN> Specifies <SPAN CLASS="INTRO">
+			Relationship Hyperlinks</SPAN>. </SPAN>
+	<LI CLASS="HAND"> REV : 
+		<SPAN CLASS= MAIN> Specifies <SPAN CLASS="INTRO">
+			Reverse Relationship Hyperlinks</SPAN>. </SPAN>
+	<LI CLASS="HAND"> SHAPE :
+	<OL>
+		<LI CLASS="DOC"> RECT : 
+		<SPAN CLASS= MAIN> To create Rectangular Links.
+			</SPAN>
+		<LI CLASS="DOC"> DEFAULT : 
+		<SPAN CLASS= MAIN> This includes the Area on the Image on
+			which no Link has been created.
+			</SPAN>
+		<LI CLASS="DOC"> CIRCLE :
+		<SPAN CLASS= MAIN> To create Circular Links.
+			</SPAN>
+		<LI CLASS="DOC"> POLY : 
+		<SPAN CLASS= MAIN> To create Polygon Figures as Links.
+			</SPAN>
+	</OL>
+	<LI CLASS="HAND"> TARGET :
+		<SPAN CLASS= MAIN> Specifies the <SPAN CLASS="INTRO"> Frame
+			name in which the contents of the linked file are to
+			be displayed/loaded.</SPAN> The attributes of Target
+			are the same used in the <SPAN CLASS= INTRO>
+			<A HREF="FRAME.HTM" TITLE= "Frameset-Contains Frame Definitions and Specifies Frame Spacing, Dimensions and Attributes"> FRAME </A> </SPAN> Tag. </SPAN>
+	<LI CLASS="HAND"> TYPE :
+		<SPAN CLASS= MAIN> It specifies <SPAN CLASS= INTRO> the MIME Type of the
+			Linked File or Object </SPAN>. </SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= MAIN> &LT;A [CHARSET="CHARSET"] [COORDS="X1,Y1,.."] [HREF="URL"] [HREFLANG="LANGUAGE"]
+		[NAME="NAME] [REL="RELATION"] [REV="REVERSE RELATION"] [SHAPE="TYPE"] [TARGET="FRAMENAME"]
+		[TYPE="MIME TYPE"]&GT; </SPAN>
+	<BR>
+	...Text/Image...
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/A&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= MAIN> &LT;A HREF="WWW.YAHOO.COM" TARGET="ONE"&GT; </SPAN>
+	<BR>
+	Link to YAHOO.COM
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/A&GT; </SPAN>
+<H5> Effect </H5>
+	<A HREF="HTTP://WWW.YAHOO.COM" TARGET="_BLANK"> </SPAN>
+	Link to YAHOO.COM
+	</A>
+<BR>
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

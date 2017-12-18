@@ -1,0 +1,79 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> SCRIPT </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="# HEAD" TITLE= "Head-To define the Control Info for the Document"> HEAD </A> </SPAN> Tag.
+This contains the <SPAN CLASS= INTRO> Browser Script Code </SPAN>. The popular ones <BR>are
+<SPAN CLASS= INTRO> JAVASCRIPT and VBSCRIPT </SPAN>. It is good habit to include the actual
+Script Code in the <BR><SPAN CLASS= INTRO> <A HREF="# COMM" TITLE= "<!--...-->-Text will not be Displayed. Comment Tag"> !--...-- </A> </SPAN>Tags so that
+the browsers that don't Scripts can ignore it. This is a Container Tag and has to be Closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> DEFER :
+		<SPAN CLASS= MAIN> Indicates browser that the Script <SPAN CLASS= INTRO>
+			doesn't affect the initial document display, so that the Script can be
+			processed after the page loads. </SPAN> </SPAN>
+	<LI CLASS="HAND"> LANGUAGE :
+		<SPAN CLASS= MAIN> Indicates the <SPAN CLASS= INTRO> MIME Type of the Script.
+			</SPAN> </SPAN>
+	<LI CLASS="HAND"> SRC :
+		<SPAN CLASS= MAIN> Specifies the <SPAN CLASS= INTRO> Relative or Absolute URL of
+			the Script to be included in the document</SPAN>. </SPAN>
+	<LI CLASS="HAND"> TYPE :
+		<SPAN CLASS= MAIN> Indicates the <SPAN CLASS= INTRO> MIME Type of the Script.
+			This is used as an alternate for the LANGUAGE Attribute. </SPAN> </SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;HEAD&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;SCRIPT [DEFER][LANGUAGE="LANGUAGE"][SRC="URL"][TYPE="TYPE"]&GT;</SPAN>
+	<SPAN CLASS= INTRO>
+	<BR>
+	&LT;!--
+	<BR>
+	....Script....
+	<BR>
+	//--&GT;
+	<BR>
+	</SPAN>
+	<SPAN CLASS= MAIN> &LT;/SCRIPT&GT;</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/HEAD&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;HEAD&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;SCRIPT LANGUAGE="JAVASCRIPT" SRC="JAVA.JS"&GT;</SPAN>
+	<SPAN CLASS= INTRO>
+	<BR>
+	&LT;!--
+	<BR>
+	function() <name>
+		{
+	<BR>
+		....
+	<BR>
+		}
+	<BR>
+	//--&GT;
+	<BR>
+	</SPAN>
+	<SPAN CLASS= MAIN> &LT;/SCRIPT&GT;</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/HEAD&GT; </SPAN>
+<H5> Effect </H5>
+	<SPAN CLASS= MAIN> The Effect can't be shown on the Document. But the Script will be
+	included in the document.</SPAN>
+<BR>
+<SPAN CLASS= INTRO><A HREF="COMMENT.HTM" TITLE= "<!--...-->-Text will not be Displayed. Comment Tag"> Refer to the !--...-- Tag.</A></SPAN>
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

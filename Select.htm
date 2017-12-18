@@ -1,0 +1,70 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> SELECT </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="FORM.HTM" TITLE= "Form-Sets Up a Container for a Form"> FORM </A> </SPAN> Tag.
+This specifies a <SPAN CLASS= INTRO> Relation List </SPAN> within a Form. <BR>Use the 
+<SPAN CLASS= INTRO> <A HREF="OPTION.HTM" TITLE= "Option-Indicates Items in a fill out Form Selection List made by the Select Tag"> OPTION </A> </SPAN> Tag to specify items in the
+Selection List. This is a Container Tag and thus has to be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> DISABLED :
+		<SPAN CLASS= MAIN> <SPAN CLASS= INTRO> Denies Access to the Selection List
+			</SPAN>. </SPAN>
+	<LI CLASS="HAND"> MULTIPLE :
+		<SPAN CLASS= MAIN> Indicate that <SPAN CLASS= INTRO> a Visitor can select more
+			than one Selection List	Item at the same time. </SPAN> </SPAN>
+	<LI CLASS="HAND"> NAME :
+		<SPAN CLASS= MAIN> Gives a Name to the value passed to the Form Processor.
+			<SPAN CLASS= INTRO> This eshtablishes a Name-Value Pair with which the
+			Form Processor can Work.</SPAN> </SPAN>
+	<LI CLASS="HAND"> SIZE :
+		<SPAN CLASS= MAIN> Specifies <SPAN CLASS= INTRO> the Number of the Variable Items
+			in the Selection List. </SPAN> If there are more items than those which are
+			visible, a Scroll Bar provides access to the other items. </SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;FORM&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;SELECT [NAME="NAME"][DISABLED][MULTIPLE][SIZE="n"]&GT; </SPAN>
+	<SPAN CLASS= INTRO> ...
+	<BR>
+	&LT;OPTION&GT;... ...&LT;/OPTION&GT;
+	<BR>
+	... </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/SELECT&GT;</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FORM&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;FORM&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;SELECT NAME="SELE1"&GT; </SPAN>
+	<SPAN CLASS= INTRO>
+	<BR>
+	&LT;OPTION VALUE="VALUE1"&GT; VALUE1 &LT;/OPTION&GT;
+	<BR>
+	&LT;OPTIONVALUE="VALUE2"&GT; VALUE2 &LT;/OPTION&GT;
+	<BR>
+	</SPAN>
+	<SPAN CLASS= MAIN> &LT;/SELECT&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FORM&GT; </SPAN>
+<H5> Effect </H5>
+	<FORM NAME="SELEF">
+	Choose Who You are.....
+	<SELECT NAME="SELE1" READONLY>
+		<OPTION VALUE="Teacher"> Teacher </OPTION> 
+		<OPTION VALUE="Student"> Student </OPTION>
+	</SELECT>
+	</FORM>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

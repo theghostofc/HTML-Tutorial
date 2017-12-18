@@ -1,0 +1,88 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> OPTION </H1>
+Indicates <SPAN CLASS="INTRO"> Items in a fill out Form Selection List made by the </SPAN>
+<SPAN CLASS= INTRO> <A HREF="SELECT.HTM" TITLE= "Select-Specify a Selection List"> SELECT </A> </SPAN> Tag.<BR>
+This is a Container Tag and thus has to be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> DISABLED : 
+		<SPAN CLASS= MAIN> <SPAN CLASS="INTRO"> Denies Access </SPAN>
+			to the Input Method.</SPAN>
+	<LI CLASS="HAND"> LABEL :
+		<SPAN CLASS= MAIN> Specifies <SPAN CLASS="INTRO"> Shorter Alternatives text
+			assigned to this tag. Browsers use this to show
+			Tool Tips over the Group. </SPAN> </SPAN>
+	<LI CLASS="HAND"> SELECTED : 
+		<SPAN CLASS= MAIN> Marks a Selected List Item <SPAN CLASS="INTRO">
+			Preselected </SPAN>. </SPAN>
+	<LI CLASS="HAND"> VALUE : 
+		<SPAN CLASS= MAIN> Indicates which Data is to be sent to the Form Processor if
+			someone chooses the Item. If <SPAN CLASS="INTRO">VALUE is not Present,
+			the Text between the Starting and Ending Tags is Sent to the Form
+			Processor </SPAN>. </SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;FORM&GT;
+	<BR>
+	&LT;SELECT&GT; </SPAN>
+	<SPAN CLASS= MAIN>
+	<BR>
+	&LT;OPTION [LABEL="LABEL"][DISABLED][SELECTED][VALUE="VALUE"]&GT; </SPAN>
+	<BR>
+	Text to be shown on the Browser
+	<BR>
+	<SPAN CLASS= MAIN>&LT;/OPTION&GT;
+	<BR>
+	... </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/SELECT&GT;
+	<BR>
+	&LT;/FORM&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;FORM&GT;
+	<BR>
+	&LT;SELECT&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN>
+	&LT;OPTION SELECTED VALUE="VALUE1"&GT;
+	</SPAN>
+	<BR>
+	Text1
+	<BR>
+	<SPAN CLASS= MAIN>
+	&LT;/OPTION&GT;
+	<BR>
+	&LT;OPTION VALUE="VALUE2"&GT;
+	</SPAN>
+	<BR>
+	</SPAN>
+	Text2
+	<BR>
+	<SPAN CLASS= MAIN>
+	&LT;/OPTION&GT;
+	</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/SELECT&GT;
+	<BR>
+	&LT;/FORM&GT; </SPAN>
+<H5> Effect </H5>
+	<FORM NAME="SELEF">
+	Choose Who You are.....
+	<SELECT NAME="SELE1" READONLY>
+		<OPTION VALUE="Teacher"> Teacher </OPTION> 
+		<OPTION VALUE="Student"> Student </OPTION>
+	</SELECT>
+	</FORM>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

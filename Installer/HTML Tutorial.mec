@@ -1,0 +1,82 @@
+[Start]
+APP_NAME=Mediapacker eBook Compiler
+APP_VERSION=1.0
+APP_COPYRIGHT=© 2001 Mediapacker - All rights reserved.
+
+eVersion=1.0
+eDescription=HTML Tutorial for CIStems School of Computing
+eAuthor=Vivek Jain
+eEmail=vivek_jain@netfundu.com
+
+DirectX=False
+DirectXRes=800x600x24
+DirectXResEdit=640x480x16
+
+Icon=C:\WINDOWS\Desktop\Project\Images\Book06.ico
+ckRightButton=True
+ckCopy=True
+ckESC=True
+ckScreenSaver=False
+ckOnTop=False
+ckPasswordClose=False
+
+FilesDir=C:\WINDOWS\Desktop\Project
+
+SplashShow=True
+SplashScreen=C:\WINDOWS\Desktop\Project\Images\splash.bmp
+SplashMode=0
+SplashSeconds=10
+SplashMadewith=False
+
+StartMessageShow=False
+StartMessage=              -= eBook Project =-||© 2001 Mediapacker - All rights reserved.|||        Welcome to My eBook Project||With Mediapacker eBook Compiler you can|compile your work into a stand alone file.|You can add some useful functions to your|eBook to distribute it easily.|||Requirements to view this eBook:|Microsoft Internet Explorer 5.0 or higher.||
+
+StartPage=/Index.htm
+ckLastPage=False
+ckShowRegistration=False
+
+Window=Standard
+WStandardBorder=1
+WStandardCaption=True,True,True
+WStandardSize=800x600
+SFile=None
+SColor=$0007FE07
+STop=54x93
+SBottom=384x264
+
+Button1=0|False|Default|Back
+Button2=1|False|Default|Next
+Button3=2|False|Default|Home
+Button4=3|False|Default|Stop
+Button5=4|False|Default|Refresh
+Button6=5|False|Default|Print
+Button7=6|False|Default|Minimize
+Button8=7|False|Default|Register
+Button9=8|False|Default|About
+Button10=9|False|Default|Exit
+ButtonSize=40x40
+ButtonType=0
+
+ButtonsBarVisible=False
+ButtonsBarAlign=0
+ButtonsBarBackground=0
+ButtonsBarColor=clSilver
+ButtonsBarWallpaper=None
+ButtonsBarLogoVisible=False
+ButtonsBarLogo=C:\WINDOWS\Desktop\Project\Images\logo.bmp
+
+SecurityMode=0
+SecurityPassword=
+SecurityKeyword=
+SecurityHD=
+SecurityEmail=register@yoursite.com
+
+SecurityMessageMode=0
+SecurityMessage=              UNREGISTERED||The page that you would view is locked.|To unlock your eBook you must register.||Please, visit: http://www.mysite.com|
+SecurityMessagePage=/register.html
+SecurityMessageRegister=True
+
+CompileRate=1
+CompileDir=C:\WINDOWS\Desktop\
+CompileFilename=HTML Tutorial
+eProject=HTML Tutorial

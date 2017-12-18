@@ -1,0 +1,77 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> AREA </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="MAP.HTM" TITLE= "Map-Specifies a Container for Client Side Image Maps"> MAP </A> </SPAN> Tag.
+This defines a <SPAN CLASS= INTRO> Client Side Image Map Definition</SPAN>.
+It <BR>indicates an <SPAN CLASS= INTRO> Area on the Image </SPAN> where the users
+can choose to link to another document or location.
+This is not a Container Tag and thus need not be closed.
+<H4> Attributes </H4>
+<OL>
+<LI CLASS="HAND"> SHAPE :
+	<OL>
+		<LI CLASS="DOC"> RECT : 
+		<SPAN CLASS= MAIN> To create Rectangular Links.
+			</SPAN>
+		<LI CLASS="DOC"> DEFAULT : 
+		<SPAN CLASS= MAIN> This includes the Area on the Image on
+			which no Link has been created.
+			</SPAN>
+		<LI CLASS="DOC"> CIRCLE :
+		<SPAN CLASS= MAIN> To create Circular Links.
+			</SPAN>
+		<LI CLASS="DOC"> POLY : 
+		<SPAN CLASS= MAIN> To create Polygon Figures as Links.
+			</SPAN>
+	</OL>
+<LI CLASS="HAND"> COORDS :
+	<SPAN CLASS= MAIN> Specifies the Coordinates of the Shape.
+		The <SPAN CLASS= INTRO> DEFAULT and RECT
+		</SPAN> take two points as
+		<SPAN CLASS= INTRO> X1,Y1,X2,Y2.</SPAN>
+		The <SPAN CLASS= INTRO> CIRCLE </SPAN> takes three points as
+		<SPAN CLASS= INTRO> X,Y,RADIUS.</SPAN>
+		The <SPAN CLASS= INTRO> POLY </SPAN> takes many points as
+		<SPAN CLASS= INTRO> X1,Y1,X2,Y2,X3,Y3,.....</SPAN></SPAN>
+<LI CLASS="HAND"> HREF :
+	<SPAN CLASS= MAIN> Specifies the Path of the Document or
+		Location to be loaded when this link is Activated. </SPAN>
+<LI CLASS="HAND"> TARGET :
+	<SPAN CLASS= MAIN> Identifies in which <SPAN CLASS= INTRO>
+		Named Frame </SPAN> to load the document. </SPAN>
+<BR>
+Please refer to the <SPAN CLASS= INTRO> <A HREF="FRAME.HTM" TITLE= "Frame-To Define the Frames"> FRAME </A> </SPAN>
+	Tag for more information about 
+	<SPAN CLASS= INTRO> TARGET </SPAN> Attribute
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;MAP&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;AREA [SHAPE="TYPE"] [COORDS="X1,Y1,.."]
+		[HREF="URL"] [TARGET="NAME"]&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/MAP&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN>To use this tag please refer to the
+		<SPAN CLASS= INTRO> <A HREF="IMG.HTM" TITLE= "Img-Places an Inline Image in a Document"> IMG </A></SPAN> Tag. </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;MAP NAME="MP1"&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;AREA SHAPE="RECT" COORDS="1,1,100,100"
+		HREF="HTTP://WWW.YAHOO.COM"&GT; </SPAN>
+	<SPAN CLASS= INTRO> &LT;/MAP&GT; </SPAN>
+<H5> Effect </H5>
+<A HREF="MAPEG.HTM" TARGET="_BLANK" TITLE= "See the Effect of this Tag">See Effect</A>
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

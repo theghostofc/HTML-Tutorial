@@ -1,0 +1,109 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> FRAME </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="FRAMESET.HTM" TITLE= "Frameset-Contains Frame Definitions and Specifies Frame Spacing, Dimensions and Attributes">FRAMESET</A> </SPAN> Tag.
+It specifies what is to be displayed in the frame.<BR>
+This is not a Container Tag and thus need not be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> NAME : 
+		<SPAN CLASS= MAIN> Gives a Name to the Frame. It helps in the Identification of
+			the frame.</SPAN>
+	<LI CLASS="HAND"> SRC :
+		<SPAN CLASS= MAIN> This specifies the URL and Filename of the file to be
+			displayed on the browser window.</SPAN>
+	<LI CLASS="HAND"> NORESIZE : 
+		<SPAN CLASS= MAIN> Specifies that the Frame can't be Resized. If it is not
+			specified the user can resize the Frame as per his own requirement.
+			</SPAN>
+	<LI CLASS="HAND"> SCROLLING : 
+		<SPAN CLASS= MAIN> Specifies that the contents of the frame can be scrolled or
+			not. It can have 3 Values.
+			</SPAN>
+		<OL>
+			<LI CLASS="DOC"> AUTO : 
+				<SPAN CLASS= MAIN> Tells the browser to <SPAN CLASS="INTRO">
+					show the scroll bar only when the content is too big
+					to be displayed at once in the frame</SPAN>.</SPAN>
+			<LI CLASS="DOC"> YES :
+				<SPAN CLASS= MAIN> This tells the browser to <SPAN CLASS="INTRO">
+					show the scroll bar even if the content fits in the
+					frame</SPAN>. In that case the scroll bar is displayed
+					as a <SPAN CLASS="INTRO"> Grayed Option </SPAN>.</SPAN>
+			<LI CLASS="DOC"> NO : 
+				<SPAN CLASS= MAIN> This tells the browser to <SPAN CLASS="INTRO">
+					not to show the scroll bar even if the content does not
+					fit in the window</SPAN>. In that case the scroll bar is
+					not displayed and the <SPAN CLASS="INTRO">content can be
+					seen upto the size of the frame</SPAN>.</SPAN>
+		</OL>
+	<LI CLASS="HAND"> TARGET : 
+		<SPAN CLASS= MAIN> Specifies where the contents of the frame are to be displayed
+			</SPAN>
+		<OL>
+			<LI CLASS="DOC"> _BLANK : 
+				<SPAN CLASS= MAIN> Tells the browser to show the contents of the
+					frame in a <SPAN CLASS="INTRO"> New Window </SPAN>.
+					</SPAN>
+			<LI CLASS="DOC"> _PARENT :
+				<SPAN CLASS= MAIN> This tells the browser to show the contents of
+					the frame in the <SPAN CLASS="INTRO"> Parent Frameset
+					</SPAN> or the <SPAN CLASS="INTRO"> Most Immiediate
+					Frameset </SPAN>.</SPAN>
+			<LI CLASS="DOC"> _SELF :
+				<SPAN CLASS= MAIN> This tells the browser to show the contents of
+					the frame in the <SPAN CLASS="INTRO"> Same Window
+					</SPAN> This is the <SPAN CLASS="INTRO"> Default Type
+					</SPAN>.</SPAN>
+			<LI CLASS="DOC"> _TOP :
+				<SPAN CLASS= MAIN> This tells the browser to <SPAN CLASS="INTRO">
+					break out of all frames </SPAN> & show in the 
+					<SPAN CLASS="INTRO"> Same Window </SPAN>.</SPAN>
+			<LI CLASS="DOC"> FRAMENAME :
+				<SPAN CLASS= MAIN> This allows the creator to <SPAN CLASS="INTRO">
+					display the contents in his own created frames </SPAN>.
+					</SPAN>
+		</OL>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;FRAMESET [ATTRIBUTES]&GT; </SPAN>
+	<BR>
+	<IMG SRC="IMAGES\SPACER.BMP" WIDTH= 50 HEIGHT= 15>
+	<SPAN CLASS= MAIN> &LT;FRAME [ATTRIBUTES]&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FRAMESET&GT; </SPAN>
+<H3> Example </H3>
+<SPAN CLASS= INTRO> &LT;FRAMESET ROWS="40%,60%"&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;FRAMESET COLS="40%,60%"&GT; </SPAN>
+		<BR>
+		<SPAN CLASS= MAIN> &LT;FRAME NAME="ONE" SCROLLING="AUTO" SRC="frameup.htm"&GT; </SPAN>
+			<BR>
+		<SPAN CLASS= MAIN> &LT;FRAME NAME="TWO" SCROLLING="AUTO"&GT; </SPAN>
+			<BR>
+	<SPAN CLASS= INTRO> &LT;/FRAMESET&GT; </SPAN>
+		<BR>
+	<SPAN CLASS= INTRO> &LT;FRAMESET COLS="50%,50%"&GT; </SPAN>
+		<BR>
+		<SPAN CLASS= MAIN> &LT;FRAME NAME="THREE" SCROLLING="YES" NORESIZE SRC="framedown.htm"&GT; </SPAN>
+			<BR>
+		<SPAN CLASS= MAIN> &LT;FRAME NAME="FOUR" SCROLLING="NO" NORESIZE&GT; </SPAN>
+			<BR>
+	<SPAN CLASS= INTRO> &LT;/FRAMESET&GT; </SPAN>
+	<BR>
+<H5> Effect </H5>
+Before Looking the <A HREF="FRAMEEG.HTM" TARGET="_BLANK" TITLE= "See the Effect of this Tag">Effect</A>, Please refer 
+to the <A HREF="FRAMESET.HTM" TITLE= "Frameset-Contains Frame Definitions and Specifies Frame Spacing, Dimensions and Attributes">Frameset</A> Tag.
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

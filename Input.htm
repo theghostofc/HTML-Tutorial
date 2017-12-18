@@ -1,0 +1,135 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> INPUT </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="FORM.HTM" TITLE= "Form-Sets Up a Container for a Form"> FORM </A> </SPAN> Tag.
+This Tag <SPAN CLASS= INTRO> identifies several Input Methods for Forms. </SPAN><BR>
+This is not a Container Tag and thus need not be closed.
+<H4> Attributes </H4>
+<OL>
+<LI CLASS="HAND"> ACCEPT :
+	<SPAN CLASS= MAIN> Specifies a list of <SPAN CLASS= INTRO> Acceptable MIME Types
+		for Submitting Files </SPAN>. </SPAN>
+<LI CLASS="HAND"> CHECKED :
+	<SPAN CLASS= MAIN> Used with the types <SPAN CLASS= INTRO> RADIO and CHECKBOX
+		</SPAN> to change the Deafult State of these Input Methods. </SPAN>
+<LI CLASS="HAND"> DISABLED :
+	<SPAN CLASS= MAIN> <SPAN CLASS= INTRO> Denies Access
+		</SPAN> to an Input Method. </SPAN>
+<LI CLASS="HAND"> MAXLENGTH :
+	<SPAN CLASS= MAIN> Indicates the <SPAN CLASS= INTRO> Number of Characters one can enter
+		into a Text Input Method. </SPAN> Used with TEXT and PASSWORD Input Methods.
+		It doesn't effect the size of the Input Field displayed on the Screen. </SPAN>
+<LI CLASS="HAND"> NAME :
+	<SPAN CLASS= MAIN> Gives a Name to the value you pass to the Form Processor.
+		This eshtablishes a Name-Value pair for the Form Processor.</SPAN>
+<LI CLASS="HAND"> READONLY :
+	<SPAN CLASS= MAIN> Specifies that <SPAN CLASS="INTRO"> the Visitor can't Change </SPAN>
+		the contents of the Text Input Field.</SPAN>
+<LI CLASS="HAND"> SIZE :
+	<SPAN CLASS= MAIN> Specifies the <SPAN CLASS= INTRO> Width of the Input Field (in
+		characters) </SPAN>  Used with TEXT and PASSWORD Input Methods. </SPAN>
+<LI CLASS="HAND"> SRC :
+	<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Relative or Absolute URL of the
+		file to be loaded </SPAN> in the Floating Frame. </SPAN>
+<LI CLASS="HAND"> TYPE :
+	<SPAN CLASS= MAIN> Specifies the <SPAN CLASS= INTRO> Type of the Input Method. </SPAN>
+	</SPAN>
+	<OL>
+		<LI CLASS="DOC"> TEXT : 
+		<SPAN CLASS= MAIN> Produces a <SPAN CLASS= INTRO> simple One Line Text Input
+			Field </SPAN> which is useful for obtaining simple data. For collecting
+			Multiple lines of Text use <SPAN CLASS= INTRO> <A HREF="TEXTAREA.HTM" TITLE= "Textarea-Defines a Multiple Line Text Input Field in a Form">
+			TEXTAREA </A> </SPAN> </SPAN>
+		<LI CLASS="DOC"> PASSWORD : 
+		<SPAN CLASS= MAIN> Produces a <SPAN CLASS= INTRO> simple One Line Text Input
+			Field </SPAN> similar to TEXT but is used to get Password. User can't see
+			the actual Password rather they see only <SPAN CLASS= INTRO> * </SPAN>
+			</SPAN>
+		<LI CLASS="DOC"> RADIO :
+		<SPAN CLASS= MAIN> Produces a <SPAN CLASS= INTRO> Radio Button (in Groups of 2 or
+			more) </SPAN>. It is used when the user is supposed to choose one out of
+			many values <SPAN CLASS= INTRO> <A HREF="SELECT.HTM" TITLE= "Select-Specify a Selection List"> SELECT </A> </SPAN>
+			can also be used for this purpose. </SPAN>
+		<LI CLASS="DOC"> CHECKBOX : 
+		<SPAN CLASS= MAIN> Produces a <SPAN CLASS= INTRO> Check Box (in Groups of 2 or
+			more) </SPAN>.  It is used when the user is supposed to choose one or
+			more out of many values <SPAN CLASS= INTRO> <A HREF="SELECT.HTM" TITLE= "Select-Specify a Selection List"> SELECT
+			</A> </SPAN> can also be used for this purpose. </SPAN>
+		<LI CLASS="DOC"> SUBMIT : 
+		<SPAN CLASS= MAIN> Produces a <SPAN CLASS= INTRO> Button which when clicked
+			Submits all the Values to the Form Processor </SPAN>.
+			<SPAN CLASS= INTRO> <A HREF="BUTTON.HTM" TITLE= "Button-Creates a Button"> BUTTON </A> </SPAN>
+			creates a Generic Button which can interact with <BR>Scripts. </SPAN>
+		<LI CLASS="DOC"> RESET : 
+		<SPAN CLASS= MAIN> Produces a <SPAN CLASS= INTRO> Button which when clicked
+			sets all the Input Methods to their default or empty settings </SPAN>.
+			<SPAN CLASS= INTRO> <A HREF="BUTTON.HTM" TITLE= "Button-Creates a Button"> BUTTON </A> </SPAN>
+			creates a Generic Button which can interact with Scripts. </SPAN>
+		<LI CLASS="DOC"> IMAGE : 
+		<SPAN CLASS= MAIN> Replaces a <SPAN CLASS= INTRO> Submit Button with an Image
+			</SPAN>. Its behavior is identical to that of Submit except that the
+			x, y co-ordinates of the mouse position over the image when selected are
+			also sent to the Form Processor.
+			<SPAN CLASS= INTRO> <A HREF="BUTTON.HTM" TITLE= "Button-Creates a Button"> BUTTON </A> </SPAN>
+			creates a Generic Button which can interact with Scripts. </SPAN>
+		<LI CLASS="DOC"> FILE : 
+		<SPAN CLASS= MAIN> Takes a <SPAN CLASS= INTRO> File as an Input </SPAN>.
+			It is used to Upload Files. </SPAN>
+		<LI CLASS="DOC"> HIDDEN : 
+		<SPAN CLASS= MAIN> Creates a <SPAN CLASS= INTRO> Hidden Input Method </SPAN>.
+		</SPAN>
+	</OL>
+<LI CLASS="HAND"> USEMAP :
+	<SPAN CLASS= MAIN> Indicates the URL of the Client Side Image Map to be used with the
+		Form.</SPAN>
+<LI CLASS="HAND"> VALUE :
+	<SPAN CLASS= MAIN> Sets <SPAN CLASS= INTRO> the default value Input Method </SPAN>.
+		</SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;FORM&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;INPUT [ACCEPT="MIME Type"] [CHECKED] [DISABLED] [MAXLENGTH="n"]
+		[NAME="NAME"] [READONLY] [SIZE="n"] [SRC="URL"] [TYPE="TYPE"] [USEMAP="URL"]
+		[VALUE="VALUE"]&GT; </SPAN>
+	<BR>
+	.....
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FORM&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;FORM NAME="FEG1" &GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> Name : <BR> &LT;INPUT TYPE="TEXT" SIZE="25"&GT;
+	<BR>
+	Password : <BR> &LT;INPUT TYPE="PASSWORD" SIZE="25"&GT;
+	<BR>
+	&LT;INPUT TYPE="BUTTON" NAME="BUTTON1" VALUE="SUBMIT"&GT;
+	<BR>
+	&LT;INPUT TYPE="BUTTON" NAME="BUTTON1" VALUE="RESET"&GT;
+	</SPAN>
+	<BR>
+	.....
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FORM&GT; </SPAN>
+<H5> Effect </H5>
+	<FORM NAME="FEG1">
+	Name : <INPUT TYPE="TEXT" SIZE="25">
+	<BR>
+	Password : <INPUT TYPE="PASSWORD" SIZE="25">
+	<BR>
+	<BUTTON TYPE="SUBMIT" NAME="BUTTON1" VALUE="RESET">SUBMIT</BUTTON>
+	<BUTTON TYPE="RESET" NAME="BUTTON1" VALUE="RESET">RESET</BUTTON>
+	</FORM>
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

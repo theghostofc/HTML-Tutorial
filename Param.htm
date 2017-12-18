@@ -1,0 +1,58 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> PARAM </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="OBJECT.HTM" TITLE= "Object-Embeds a Software Object into a Document"> OBJECT </A> </SPAN> Tag.
+This specifies <SPAN CLASS= INTRO> Parameters to be passed to an <BR>Embedded Object </SPAN>.
+This is not a Container Tag and thus need not be closed.
+<H4> Attributes </H4>
+<OL>
+<LI CLASS="HAND"> NAME :
+	<SPAN CLASS= MAIN> Indicates <SPAN CLASS= INTRO> the Name of the Parameter passed to the
+		Embedded Object</SPAN>. </SPAN>
+<LI CLASS="HAND"> TYPE :
+	<SPAN CLASS= MAIN> Specifies <SPAN CLASS= INTRO> the MIME type of the Data found at the
+		specified URL. Use with the [VALUETYPE="REF"]</SPAN>. </SPAN>
+<LI CLASS="HAND"> VALUE :
+	<SPAN CLASS= MAIN> Specifies <SPAN CLASS= INTRO> the value associated with the
+		Parameter passed to the Embedded Object</SPAN>. </SPAN>
+<LI CLASS="HAND"> VALUETYPE :
+	<OL>
+		<LI CLASS="DOC"> REF : 
+		<SPAN CLASS= INTRO> Indicates a URL passed to the Embedded Object.
+			</SPAN>
+		<LI CLASS="DOC"> OBJECT : 
+		<SPAN CLASS= MAIN> Indicates that <SPAN CLASS= INTRO> the Value Attribute
+			specifies the location of the Object Data</SPAN>. </SPAN>
+		<LI CLASS="DOC"> DATA :
+		<SPAN CLASS= MAIN> Indicates that <SPAN CLASS= INTRO> the Value Attribute
+			is set to Plain Text String. It is used for passsing alphanumeric
+			data to the Embedded Object</SPAN>. </SPAN>
+	</OL>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;OBJECT&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;PARAM [NAME="NAME"] [TYPE="TYPE"] [VALUE="VALUE"] [VALUETYPE="OPTIONS"]&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/OBJECT&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;OBJECT&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;PARAM NAME="PARAM1" TYPE="IMAGE/GIF" VALUE="IMAGES\GRADUATION.GIF" VALUETYPE="OBJECT"&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/OBJECT&GT; </SPAN>
+<H5> Effect </H5>
+	<SPAN CLASS= MAIN> The Effect can't be shown on the Document Now. </SPAN>
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> OBJECT </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="BODY.HTM" TITLE= "Body-Contains the Formatting Tags. Its contents are displayed on the Browser"> BODY </A> </SPAN> Tag.
+This Tag <SPAN CLASS="INTRO"> Embeds a Software Object into a Document. </SPAN><BR>
+This can be  an ActiveX Control, Quick Time Movie, etc.  
+Use the <SPAN CLASS= INTRO> <A HREF="PARAM.HTM" TITLE= "Param-Specifies Parameters passed to an Embedded Object"> PARAM </A> </SPAN> Tag in this Tag to<BR> supply the
+required Parameters to the Embedded Object. If there are no parameters this Tag can be omitted.
+Messages and other Tags can be placed in Between the Tags for Browsers that don't support
+Embedded Objects. This is a Container Tag and thus has to be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> ALIGN : 
+	<SPAN CLASS= MAIN>Indicates <SPAN CLASS= INTRO> how the Embedded Object lines up relative
+		to the edges of	the browser window or other elements of the Browser Window.
+			</SPAN></SPAN>
+		<OL>
+			<LI CLASS="DOC">LEFT : 
+				<SPAN CLASS= INTRO>Left of the Browser Window.</SPAN>
+			<LI CLASS="DOC">RIGHT : 
+				<SPAN CLASS= INTRO>Right of the Browser Window.</SPAN>
+			<LI CLASS="DOC">CENTER : 
+				<SPAN CLASS= INTRO>Center of the Browser Window.</SPAN>
+			<LI CLASS="DOC">TEXTTOP :
+				<SPAN CLASS= MAIN>Aligns the <SPAN CLASS= INTRO> Top of the Embedded Object with the
+				top of the Surrounding Text.</SPAN></SPAN>
+			<LI CLASS="DOC">TEXTMIDDLE :
+				<SPAN CLASS= MAIN>Aligns the <SPAN CLASS= INTRO> Top of the Embedded Object with the
+				middle of the Surrounding Text.</SPAN></SPAN>
+			<LI CLASS="DOC">TEXTBOTTOM :
+				<SPAN CLASS= MAIN>Aligns the <SPAN CLASS= INTRO> Top of the Embedded Object with the
+				bottom of the Surrounding Text.</SPAN></SPAN>
+			<LI CLASS="DOC">BASELINE :
+				<SPAN CLASS= MAIN>Aligns the <SPAN CLASS= INTRO> Bottom of the Embedded Object with the
+				baseline of the Surrounding Text.</SPAN></SPAN>
+			<LI CLASS="DOC">MIDDLE :
+				<SPAN CLASS= MAIN>Aligns the <SPAN CLASS= INTRO> Bottom of the Embedded Object with the
+				middle of the Surrounding Text.</SPAN></SPAN>
+		</OL>
+	<LI CLASS="HAND"> BORDER : 
+		<SPAN CLASS= MAIN>Indicates the <SPAN CLASS= INTRO> Width (in px.) of a Border around an Embedded Object.
+			</SPAN></SPAN>
+	<LI CLASS="HAND"> CODEBASE : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Absolute or Relative URL of the Base Directory in
+			which the Browser will look for the Data and other Implmentation Files.
+			</SPAN></SPAN>
+	<LI CLASS="HAND"> CODETYPE : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> MIME Type of the Embedded Object's Code.</SPAN></SPAN>
+	<LI CLASS="HAND"> CLASSID : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> URL of the Embedded Object Resource.</SPAN></SPAN>
+	<LI CLASS="HAND"> DATA : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Absolute or Relative URL of the Embedded Object's
+			Data.</SPAN></SPAN>
+	<LI CLASS="HAND"> DECLARE : 
+		<SPAN CLASS= MAIN><SPAN CLASS= INTRO> Defines the Embedded Object without actually loading it into
+			the Document.</SPAN></SPAN>
+	<LI CLASS="HAND"> HEIGHT : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Vertical Dimensions (in px.) of the Embedded
+			Object.</SPAN></SPAN>
+	<LI CLASS="HAND"> HSPACE : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Size of Margins (in px.) to the Left and Right
+			of the Embedded Object.</SPAN></SPAN>
+	<LI CLASS="HAND"> NAME : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Name of the Embedded Object.</SPAN></SPAN>
+	<LI CLASS="HAND"> SHAPES : 
+		<SPAN CLASS= MAIN>Specifies <SPAN CLASS= INTRO> that the Embedded Object has Shaped Hyperlinks ie.
+			Image Maps.</SPAN></SPAN>
+	<LI CLASS="HAND"> STANDBY : 
+		<SPAN CLASS= MAIN>Specifies <SPAN CLASS= INTRO> a message that the Browser Displays while loading
+			the Object.</SPAN></SPAN>
+	<LI CLASS="HAND"> TYPE : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> MIME Type of the Embedded Object.</SPAN></SPAN>
+	<LI CLASS="HAND"> USEMAP : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Absolute or Relative URL of a CLient Side Image
+			Map to be used with the Embedded Object. </SPAN> </SPAN>
+	<LI CLASS="HAND"> VSPACE : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Size of Margins (in px.) to the Top and Bottom
+			of the Embedded Object.</SPAN></SPAN>
+	<LI CLASS="HAND"> WIDTH : 
+		<SPAN CLASS= MAIN>Specifies the <SPAN CLASS= INTRO> Horizontal Dimensions (in px.) of the Embedded
+			Object.</SPAN></SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= MAIN> &LT;OBJECT [ALIGN="ALIGNMENT"] [BORDER="n"] [CODEBASE="URL]
+		[CODETYPE="MIMETYPPE"] [DATA="URL"] [DECLARE] [HEIGHT="n"] [HSPACE="n"]
+		[NAME="NAME"] [SHAPES] [STANDBY="TEXT"] [TYPE="MIMETYPE"] [USEMAP="URL"]
+		[VSPACE="n"] [WIDTH="n"]&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;PARAM&GT; </SPAN>
+	<BR>
+	....
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/OBJECT&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= MAIN> &LT;OBJECT DATA="IMAGES\ANI.GIF" TYPE="IMAGE/GIF" BORDER=1 HIEGHT=100
+		WIDTH=100&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/OBJECT&GT; </SPAN>
+<H5> Effect </H5>
+<OBJECT DATA=".\IMAGES\ANI.GIF" TYPE="image/gif" BORDER="1" HEIGHT="225" WIDTH="235">
+	</OBJECT>
+<BR>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

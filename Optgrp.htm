@@ -1,0 +1,96 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> OPTGRP </H1>
+<SPAN CLASS="INTRO"> Specifies a description for a group of options </SPAN>
+<SPAN CLASS= INTRO> <A HREF="SELECT.HTM" TITLE= "Select-Specify a Selection List"> SELECT </A> </SPAN> Tag.
+This is a Container Tag and thus <BR>has to be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> LABEL :
+		<SPAN CLASS= MAIN> Specifies <SPAN CLASS="INTRO"> Shorter Alternatives text
+			assigned to this tag. Browsers use this to show
+			Tool Tips over the Group. </SPAN> </SPAN>
+</OL>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;FORM&GT;
+	<BR>
+	&LT;SELECT&GT;
+	<BR>
+	</SPAN>
+	<SPAN CLASS= MAIN>
+	&LT;OPTGROUP [LABEL="LABEL"]&GT;
+	</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> 
+	&LT;OPTION&GT;
+	<BR>
+	...Text...
+	<BR>
+	&LT;/OPTION&GT;
+	<BR>
+	...
+	<BR>
+	</SPAN>
+	<SPAN CLASS= MAIN>
+	&LT;/OPTGROUP&GT;
+	</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/SELECT&GT;
+	<BR>
+	&LT;/FORM&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;FORM&GT;
+	<BR>
+	&LT;SELECT&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN>
+	&LT;OPTGROUP&GT;
+	</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO>
+	&LT;OPTION&GT;
+	<BR>
+	Text1
+	<BR>
+	&LT;/OPTION&GT;
+	<BR>
+	&LT;OPTION&GT;
+	<BR>
+	Text2
+	<BR>
+	&LT;/OPTION&GT;
+	<BR>
+	</SPAN>
+	<SPAN CLASS= MAIN>
+	&LT;/OPTGROUP&GT;
+	</SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/SELECT&GT;
+	<BR>
+	&LT;/FORM&GT; </SPAN>
+<H5> Effect </H5>
+	<FORM NAME="SELEF">
+	Choose Who You are.....
+	<SELECT NAME="SELE1" READONLY>
+	<OPTGROUP LABEL="Select Who You Are">
+		<OPTION VALUE="Teacher"> Teacher </OPTION> 
+		<OPTION VALUE="Student"> Student </OPTION>
+	</OPTGROUP>
+	<OPTGROUP LABEL="Select Your Type">
+		<OPTION VALUE="Senior"> Senior </OPTION> 
+		<OPTION VALUE="Junior"> Junior </OPTION>
+	</OPTGROUP>
+	</SELECT>
+	</FORM>
+<BR>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>

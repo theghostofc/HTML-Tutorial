@@ -1,0 +1,65 @@
+<!DOCTYPE HTML 4.0 TRANSITIONAL PUBLIC "_//w3c//dtd html 4.0//en">
+<HTML>
+<HEAD>
+<LINK REL=STYLESHEET TYPE="TEXT/CSS" HREF="STYLES.CSS">
+<TITLE> HTML Tutorial </TITLE> 
+</HEAD>
+<body class="MIC">
+
+<H1> TEXTAREA </H1>
+This is to be used in the <SPAN CLASS= INTRO> <A HREF="FORM.HTM" TITLE= "Form-Sets Up a Container for a Form"> FORM </A> </SPAN> Tag.
+This Tag defines a <SPAN CLASS= INTRO> Multiple Line Text Input Field in a Form. </SPAN>
+To specify a <SPAN CLASS= INTRO> Default Value </SPAN>, place the text within the opening
+and the closing tags. This is a Container Tag and thus need to be closed.
+<H4> Attributes </H4>
+<OL>
+	<LI CLASS="HAND"> COLS : 
+	<SPAN CLASS= MAIN> Indicates <SPAN CLASS="INTRO"> the Width (in Character Widths) </SPAN>
+		of the Text Input Field.</SPAN>
+	<LI CLASS="HAND"> DATAFLD : 
+	<SPAN CLASS= MAIN> Selects a <SPAN CLASS="INTRO"> Column from a Previously Identified Source of Tabular Data
+		</SPAN>.</SPAN>
+	<LI CLASS="HAND"> DATASRC : 
+	<SPAN CLASS= MAIN> Specifies <SPAN CLASS="INTRO"> the Source of Data for Data Binding
+		</SPAN>.</SPAN>
+	<LI CLASS="HAND"> DISABLED : 
+	<SPAN CLASS= MAIN> <SPAN CLASS="INTRO"> Denies Access </SPAN>
+		to the Input Field.</SPAN>
+	<LI CLASS="HAND"> NAME :
+	<SPAN CLASS= MAIN>Gives a Name to the value you pass to the Form
+		Processor.</SPAN>
+	<LI CLASS="HAND"> READONLY : 
+	<SPAN CLASS= MAIN> Specifies that <SPAN CLASS="INTRO"> the Visitor can't Change </SPAN>
+		the contents of the Text Input Field.</SPAN>
+	<LI CLASS="HAND"> ROWS : 
+	<SPAN CLASS= MAIN> Indicates <SPAN CLASS="INTRO"> the Height (in Lines of Text) </SPAN>
+		of the Text Input Field.</SPAN>
+<H2> Syntax </H2>
+	<SPAN CLASS= INTRO> &LT;FORM [NAME="NAME"] &GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;TEXTAREA [NAME="TNAME"] [COLS="n"] [ROWS="m"]&GT; </SPAN>
+	<BR>
+	[...Default Value...]
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/TEXTAREA&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FORM&GT; </SPAN>
+<H3> Example </H3>
+	<SPAN CLASS= INTRO> &LT;FORM [NAME="NAME"] &GT; </SPAN>
+	<BR>
+	<SPAN CLASS= MAIN> &LT;TEXTAREA NAME="TXTAREA" COLS="20" ROWS="4"&GT; </SPAN>
+	<BR>
+	Comments
+	<BR>
+	<SPAN CLASS= MAIN> &LT;/TEXTAREA&GT; </SPAN>
+	<BR>
+	<SPAN CLASS= INTRO> &LT;/FORM&GT; </SPAN>
+<H5> Effect </H5>
+	<FORM NAME="FM">
+	<TEXTAREA ROWS="4" COLS="20" READONLY> Comments </TEXTAREA>
+	</FORM>
+<A HREF=" INTRO.HTM" TITLE="HTML Tutorial Home-Introduction to HTML"> Home </A>
+<BR>
+<A HREF=" ABOUT.HTM" TITLE="About HTML Tutorial"> About </A>
+</BODY>
+</HTML>
